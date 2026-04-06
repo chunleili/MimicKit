@@ -1,0 +1,14 @@
+[project]
+name = "mimickit"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "gymnasium",
+    "numpy",
+    "pyyaml",
+    "torch>=1.9.1",
+    "tensorboardX",
+]
+
+[tool.setuptools.packages.find]
+include = ["mimickit*"]
